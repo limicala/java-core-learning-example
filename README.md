@@ -6,26 +6,26 @@ Java核心技术学习代码兼测试案例<br>
 
 包目录：
 
-- [ ]	├── org.rpc		// 基于Java动态代理&Socket的简单RPC实现
-	=================华丽的分割线=================
-- [ ]	├── org.javacore.base		// Java基础必备
-- [ ]	├── org.javacore.collection	// Java集合
-- [ ]	├── org.javacore.collection.list	// Java集合List
-- [ ]	├── org.javacore.collection.map	// Java集合Map
-- [ ]	├── org.javacore.collection.queue	// Java集合Queue
-- [ ]	├── org.javacore.collection.set	// Java集合Set
-- [ ]	├── org.javacore.collection.util	// Java集合工具类
-- [ ]	├── org.javacore.initAndCleanup	// Java初始化及清理
-- [ ]	├── org.javacore.io			// Java IO
-- [ ]	├── org.javacore.io.byteoper		// Java IO 字节操作
-- [ ]	├── org.javacore.io.zip			// Java IO ZIP压缩解压
-- [ ]	├── org.javacore.nio			// Java NIO
-- [ ]	├── org.javacore.reflection	// Java 反射
-- [ ]	├── org.javacore.rtti			// Java RTTI
-- [ ]	├── org.javacore.thread		// Java 线程
-    =================实战JAVA 8=================
-- [ ]   ├── org.javacore.lambda		// lambda表达式
-- [ ]   ├── org.javacore.stream		// Stream API 集合的流式操作
+- [ ]	├── org.rpc		                  // 基于Java动态代理&Socket的简单RPC实现
+        =================华丽的分割线=================
+- [ ]	├── org.javacore.base		      // Java基础必备
+- [ ]	├── org.javacore.collection	      // Java集合
+- [ ]	├── org.javacore.collection.list  // Java集合List
+- [ ]	├── org.javacore.collection.map	  // Java集合Map
+- [ ]	├── org.javacore.collection.queue // Java集合Queue
+- [ ]	├── org.javacore.collection.set	  // Java集合Set
+- [ ]	├── org.javacore.collection.util  // Java集合工具类
+- [ ]	├── org.javacore.initAndCleanup	  // Java初始化及清理
+- [ ]	├── org.javacore.io			      // Java IO
+- [ ]	├── org.javacore.io.byteoper	  // Java IO 字节操作
+- [ ]	├── org.javacore.io.zip			  // Java IO ZIP压缩解压
+- [ ]	├── org.javacore.nio			  // Java NIO
+- [ ]	├── org.javacore.reflection	      // Java 反射
+- [ ]	├── org.javacore.rtti			  // Java RTTI
+- [ ]	├── org.javacore.thread		      // Java 线程
+        =================实战JAVA 8=================
+- [ ]   ├── org.javacore.lambda		      // lambda表达式
+- [ ]   ├── org.javacore.stream		      // Stream API 集合的流式操作
 	    │
 
 详细目录：
