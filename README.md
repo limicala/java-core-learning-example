@@ -1,31 +1,3 @@
-# java-core-learning-example
-关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
-
-## Spring For All 社区
-Spring For All 社区是新组建的关于 Spring 的纯技术交流社区（涵盖 Spring Boot、Spring Cloud 等内容），集诸多开源爱好者和技术大牛贡献内容和交流问题。我们不夸大、不装逼、做最纯粹的技术分享！！！
-
-看看我们超强的群众基础，欢迎有兴趣的朋友加入QQ群分享与交流：
-
-①群： 365234583（满）<br>
-②群： 123013854（满）<br>
-③群： 290714704<br>
-④群： 112133511<br>
-⑤群： 157525002（满）<br>
-⑥群： 564840207<br>
-⑦群： 470962790（满）<br>
-⑧群： 613456104（满）<br>
-⑨群： 534583667<br>
-⑩群： 210742970（满）
-
-## 作者与学习乐园
-源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")<br>
-作者： [李强强](http://www.bysocket.com/ "李强强")<br>
-QQ群：编程之美 365234583  [立即加入](http://jq.qq.com/?_wv=1027&k=Sx4s4U "编程之美")<br>
-编程之美② 290714704  <br><br>
-关注微信公众号【泥瓦匠BYSokcet】，及时得到技术文章推送<br>
-![公众号](https://github.com/JeffLi1993/springboot-learning-example/blob/master/doc/qrcode.jpg)
-
-
 ## 项目结构
 - src 目录<br>
 Java核心技术学习代码兼测试案例<br>
@@ -34,28 +6,27 @@ Java核心技术学习代码兼测试案例<br>
 
 包目录：
 
-	├── org.rpc		// 基于Java动态代理&Socket的简单RPC实现
+- [ ]	├── org.rpc		// 基于Java动态代理&Socket的简单RPC实现
 	=================华丽的分割线=================
-	├── org.javacore.base		// Java基础必备
-	├── org.javacore.collection	// Java集合
-	├── org.javacore.collection.list	// Java集合List
-	├── org.javacore.collection.map	// Java集合Map
-	├── org.javacore.collection.queue	// Java集合Queue
-	├── org.javacore.collection.set	// Java集合Set
-	├── org.javacore.collection.util	// Java集合工具类
-	├── org.javacore.initAndCleanup	// Java初始化及清理
-	├── org.javacore.io			// Java IO
-	├── org.javacore.io.byteoper		// Java IO 字节操作
-	├── org.javacore.io.zip			// Java IO ZIP压缩解压
-	├── org.javacore.nio			// Java NIO
-	├── org.javacore.reflection	// Java 反射
-	├── org.javacore.rtti			// Java RTTI
-	├── org.javacore.thread		// Java 线程
+- [ ]	├── org.javacore.base		// Java基础必备
+- [ ]	├── org.javacore.collection	// Java集合
+- [ ]	├── org.javacore.collection.list	// Java集合List
+- [ ]	├── org.javacore.collection.map	// Java集合Map
+- [ ]	├── org.javacore.collection.queue	// Java集合Queue
+- [ ]	├── org.javacore.collection.set	// Java集合Set
+- [ ]	├── org.javacore.collection.util	// Java集合工具类
+- [ ]	├── org.javacore.initAndCleanup	// Java初始化及清理
+- [ ]	├── org.javacore.io			// Java IO
+- [ ]	├── org.javacore.io.byteoper		// Java IO 字节操作
+- [ ]	├── org.javacore.io.zip			// Java IO ZIP压缩解压
+- [ ]	├── org.javacore.nio			// Java NIO
+- [ ]	├── org.javacore.reflection	// Java 反射
+- [ ]	├── org.javacore.rtti			// Java RTTI
+- [ ]	├── org.javacore.thread		// Java 线程
     =================实战JAVA 8=================
-    ├── org.javacore.lambda		// lambda表达式
-    ├── org.javacore.stream		// Stream API 集合的流式操作
-	│
-	拼命更新！顶！d=====(￣▽￣*)b
+- [ ]   ├── org.javacore.lambda		// lambda表达式
+- [ ]   ├── org.javacore.stream		// Stream API 集合的流式操作
+	    │
 
 详细目录：
 
@@ -156,7 +127,6 @@ Java核心技术学习代码兼测试案例<br>
    	├── 	SimplePriorities.java			// 线程优先级的使用
 	├── 	SingleThreadExecutor.java		// SingleThreadExecutor的使用
 	├── 	SleepingTask.java			    // 休眠线程sleep的使用
-	拼命更新！顶！d=====(￣▽￣*)b
  
 ## 学习方法
 根据包目录，进行一块一块学习。然后针对某类，请看下相对应的test包或者src下直接测试案例，进行学习。
