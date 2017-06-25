@@ -31,7 +31,7 @@ public class LambdaListCompare {
         list.add(1);
         list.add(3);
         list.add(6);
-
+//        之前的写法，使用Comparator类
 //        list.sort(new Comparator<Integer>() {
 //            @Override
 //            public int compare(Integer o1, Integer o2) {
