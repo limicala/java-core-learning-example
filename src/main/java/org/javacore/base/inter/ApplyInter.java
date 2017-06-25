@@ -53,6 +53,10 @@ class SplitcaseImpl implements ProcessorInter {
     }
 }
 
+/**
+ * 虽然代码看起来和不用接口实现的类似，
+ * 但是一个Java类只能继承一个父类，但可以实现多个接口
+ */
 public class ApplyInter {
     public static void process(ProcessorInter p , Object input){
         System.out.println("调用对象名：" + p.name());

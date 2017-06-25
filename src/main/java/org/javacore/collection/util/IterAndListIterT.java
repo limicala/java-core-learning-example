@@ -11,9 +11,9 @@ import java.util.ListIterator;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,12 +27,12 @@ import java.util.ListIterator;
  * 	Iterator与ListIterator的区别
  */
 public class IterAndListIterT {
-	
+
 	public static void main(String[] args) {
-		//iterator();
+//		iterator();
 		listIterator();
 	}
-	
+
 	/**
 	 * 并发修改异常产生。
 	 * 原因：Iterator(Object obj = it.next()) 会检查HashMap的size，
@@ -45,17 +45,17 @@ public class IterAndListIterT {
 		a1.add("List02");
 		a1.add("List04");
 		a1.add("List05");
-		
+
 		Iterator i1 = a1.iterator();
 		while (i1.hasNext()){
 			Object obj = i1.next();
 			if (obj.equals("List02"))
 				a1.add("List03");
 		}
-		
+
 		System.out.print("集合：\n\t"+a1+"\n");
 	}
-	
+
 	/**
 	 * ListIterator可以实现对象的修改。
 	 */
@@ -66,7 +66,7 @@ public class IterAndListIterT {
 		a1.add("List");
 		a1.add("List03");
 		a1.add("List04");
-		
+
 		ListIterator l1 = a1.listIterator();
 		while (l1.hasNext()){
 			Object obj = l1.next();

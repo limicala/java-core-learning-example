@@ -3,18 +3,18 @@
 Java核心技术学习代码兼测试案例<br>
 - test目录(测试包名与src目录保持一致)<br>
 对应学习代码包的详细测试案例<br>
-
+本人根据得到的启发给各个模块评级 * 一般 ** 有点意思 *** 棒
 包目录：
 
 - [ ]	├── org.rpc		                  // 基于Java动态代理&Socket的简单RPC实现
         =================华丽的分割线=================
-- [ ]	├── org.javacore.base		      // Java基础必备
-- [ ]	├── org.javacore.collection	      // Java集合
-- [ ]	├── org.javacore.collection.list  // Java集合List
-- [ ]	├── org.javacore.collection.map	  // Java集合Map
-- [ ]	├── org.javacore.collection.queue // Java集合Queue
-- [ ]	├── org.javacore.collection.set	  // Java集合Set
-- [ ]	├── org.javacore.collection.util  // Java集合工具类
+- [x]	├── org.javacore.base		      // Java基础必备(**)
+- [x]	├── org.javacore.collection	      // Java集合(*)
+- [x]	├── org.javacore.collection.list  // Java集合List(*)
+- [x]	├── org.javacore.collection.map	  // Java集合Map(*)
+- [x]	├── org.javacore.collection.queue // Java集合Queue(*)
+- [x]	├── org.javacore.collection.set	  // Java集合Set(*)
+- [x]	├── org.javacore.collection.util  // Java集合工具类(**)
 - [ ]	├── org.javacore.initAndCleanup	  // Java初始化及清理
 - [ ]	├── org.javacore.io			      // Java IO
 - [ ]	├── org.javacore.io.byteoper	  // Java IO 字节操作

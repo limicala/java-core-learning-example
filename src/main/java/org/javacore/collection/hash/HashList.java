@@ -28,8 +28,5 @@ public class HashList {
             skuObj.setDesc("descexist" + i);
             existSkuObjList.add(skuObj);
         }
-
-
-
     }
 }

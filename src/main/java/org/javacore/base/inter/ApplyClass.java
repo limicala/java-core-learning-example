@@ -45,6 +45,9 @@ class Splitcase extends Processor {
     }
 }
 
+/**
+ * 不使用接口的话，就要用子类继承父类的方法来实现
+ */
 public class ApplyClass {
     public static void process(Processor p , Object input){
         System.out.println("调用对象名：" + p.name());
