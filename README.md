@@ -7,7 +7,9 @@ Java核心技术学习代码兼测试案例<br>
 包目录：
 
 - [ ]	├── org.rpc		                  // 基于Java动态代理&Socket的简单RPC实现
-        =================华丽的分割线=================
+
+=================华丽的分割线=================
+
 - [ ]	├── org.javacore.base		      // Java基础必备
 - [ ]	├── org.javacore.collection	      // Java集合
 - [ ]	├── org.javacore.collection.list  // Java集合List
@@ -23,10 +25,11 @@ Java核心技术学习代码兼测试案例<br>
 - [ ]	├── org.javacore.reflection	      // Java 反射
 - [ ]	├── org.javacore.rtti			  // Java RTTI
 - [ ]	├── org.javacore.thread		      // Java 线程
-        =================实战JAVA 8=================
+
+=================实战JAVA 8=================
+
 - [ ]   ├── org.javacore.lambda		      // lambda表达式
 - [ ]   ├── org.javacore.stream		      // Stream API 集合的流式操作
-	    │
 
 详细目录：
 
