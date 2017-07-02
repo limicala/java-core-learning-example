@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
  */
 public class EnhancerDemo {
     public static void main(String[] args) {
-        // 创建一个enhancer对象，用于生成代理类
+        // 创建一个增强类enhancer对象，用于生成代理类
         Enhancer enhancer = new Enhancer();
         // 设置父类
         enhancer.setSuperclass(A.class);
