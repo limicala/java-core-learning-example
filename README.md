@@ -11,22 +11,22 @@ Java核心技术学习代码兼测试案例<br>
 
 =================华丽的分割线=================
 
-- [x]	├── org.javacore.base		      // Java基础必备(**)
-- [x]	├── org.javacore.collection	      // Java集合(*)
-- [x]	├── org.javacore.collection.list  // Java集合List(*)
-- [x]	├── org.javacore.collection.map	  // Java集合Map(*)
-- [x]	├── org.javacore.collection.queue // Java集合Queue(*)
-- [x]	├── org.javacore.collection.set	  // Java集合Set(*)
-- [x]	├── org.javacore.collection.util  // Java集合工具类(**)
-- [x]	├── org.javacore.initAndCleanup	  // Java初始化及清理(*)
-- [x]	├── org.javacore.proxy			  // Java 代理
-- [ ]	├── org.javacore.io			      // Java IO
-- [ ]	├── org.javacore.io.byteoper	  // Java IO 字节操作
-- [ ]	├── org.javacore.io.zip			  // Java IO ZIP压缩解压
-- [ ]	├── org.javacore.nio			  // Java NIO
-- [ ]	├── org.javacore.reflection	      // Java 反射
-- [ ]	├── org.javacore.rtti			  // Java RTTI
-- [ ]	├── org.javacore.thread		      // Java 线程
+- [x]	├── [org.javacore.base](src/main/java/org/javacore/base)	      // Java基础必备(**)
+- [x]	├── [org.javacore.collection](src/main/java/org/javacore/collection)	      // Java集合(*)
+- [x]	├── [org.javacore.collection.list](src/main/java/org/javacore/collection/list))  // Java集合List(*)
+- [x]	├── [org.javacore.collection.map](src/main/java/org/javacore/collection/map))	  // Java集合Map(*)
+- [x]	├── [org.javacore.collection.queue](src/main/java/org/javacore/collection/queue)) // Java集合Queue(*)
+- [x]	├── [org.javacore.collection.set](src/main/java/org/javacore/collection/set))	  // Java集合Set(*)
+- [x]	├── [org.javacore.collection.util](src/main/java/org/javacore/collection/util)) // Java集合工具类(**)
+- [x]	├── [org.javacore.initAndCleanup](src/main/java/org/javacore/initAndCleanup))	  // Java初始化及清理(*)
+- [x]	├── [org.javacore.proxy](src/main/java/org/javacore/proxy)		  // Java 代理
+- [ ]	├── [org.javacore.io](src/main/java/org/javacore/io)			      // Java IO
+- [ ]	├── [org.javacore.io.byteoper](src/main/java/org/javacore/io/byteoper)	  // Java IO 字节操作
+- [ ]	├── [org.javacore.io.zip](src/main/java/org/javacore/io/zip)			  // Java IO ZIP压缩解压
+- [ ]	├── [org.javacore.nio](src/main/java/org/javacore/nio)			  // Java NIO
+- [ ]	├── [org.javacore.reflection](src/main/java/org/javacore/reflection)	      // Java 反射
+- [ ]	├── [org.javacore.rtti](src/main/java/org/javacore/rtti)			  // Java RTTI
+- [ ]	├── [org.javacore.thread](src/main/java/org/javacore/thread)		      // Java 线程
 
 =================实战JAVA 8=================
 

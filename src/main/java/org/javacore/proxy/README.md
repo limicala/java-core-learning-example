@@ -91,15 +91,15 @@ Java本身动态代理是基于接口去生成的，所以无法代理没有实�
 
 # 相关链接
 
-[Java 动态代理机制分析及扩展，第 1 部分]https://www.ibm.com/developerworks/cn/java/j-lo-proxy1/
+[Java 动态代理机制分析及扩展，第 1 部分](https://www.ibm.com/developerworks/cn/java/j-lo-proxy1/)
 
-[彻底理解JAVA动态代理]http://www.cnblogs.com/flyoung2008/archive/2013/08/11/3251148.html
+[彻底理解JAVA动态代理](http://www.cnblogs.com/flyoung2008/archive/2013/08/11/3251148.html)
 
-[Java 动态代理作用是什么？]https://www.zhihu.com/question/20794107
+[Java 动态代理作用是什么？](https://www.zhihu.com/question/20794107)
 
-[Java JDK 动态代理使用及实现原理分析]http://blog.csdn.net/bluetjs/article/details/52263410
+[Java JDK 动态代理使用及实现原理分析](http://blog.csdn.net/bluetjs/article/details/52263410)
 
-**[JDK动态代理实现原理](http://rejoy.iteye.com/blog/1627405)**
+***[JDK动态代理实现原理](http://rejoy.iteye.com/blog/1627405)***
 
 [Cglib的使用方法(1)--Enhancer](http://www.cnblogs.com/icejoywoo/archive/2011/06/05/2072970.html)
 
