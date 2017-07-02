@@ -19,6 +19,7 @@ Java核心技术学习代码兼测试案例<br>
 - [x]	├── org.javacore.collection.set	  // Java集合Set(*)
 - [x]	├── org.javacore.collection.util  // Java集合工具类(**)
 - [x]	├── org.javacore.initAndCleanup	  // Java初始化及清理(*)
+- [x]	├── org.javacore.proxy			  // Java 代理
 - [ ]	├── org.javacore.io			      // Java IO
 - [ ]	├── org.javacore.io.byteoper	  // Java IO 字节操作
 - [ ]	├── org.javacore.io.zip			  // Java IO ZIP压缩解压
