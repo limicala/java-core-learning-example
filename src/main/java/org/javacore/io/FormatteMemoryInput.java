@@ -13,6 +13,8 @@ import java.io.IOException;
 public class FormatteMemoryInput {
 	public static void main(String[] args) throws IOException {
 		String filePath = "src" + File.separator +
+                "main" + File.separator +
+                "java" + File.separator +
 				"org" + File.separator +
 				"javacore" + File.separator +
 				"io" + File.separator +

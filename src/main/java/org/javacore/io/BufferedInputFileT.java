@@ -11,9 +11,9 @@ import java.io.IOException;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,30 +27,41 @@ import java.io.IOException;
  * 缓冲输入文件
  */
 public class BufferedInputFileT {
-	
+
 	/**
 	 * 通过文件名，读取文件并缓冲
 	 * @param filename
 	 * @return
 	 * @throws IOException
 	 */
-	public static String read(String filename) 
+	public static String read(String filename)
 			throws IOException {
 		// 通过行读取输入
+        File f = new File(filename);
+        System.out.println("11" + f.getAbsolutePath());
 		BufferedReader in = new BufferedReader(new FileReader(filename));
 		String s;
 		StringBuilder sb = new StringBuilder();
 		while((s = in.readLine()) != null)
-			sb.append(s + "\n");// 不考了线程安全，StringBuilder 比  StringBuffer效率高
+			sb.append(s + "\n");// 不考虑线程安全，StringBuilder 比  StringBuffer效率高
 		// 关闭文件
 		in.close();
 		return sb.toString();
 	}
-	
+
+    /**
+     * 获取当前路径的几种方法
+     * http://www.cnblogs.com/franson-2016/p/5728280.html
+     */
 	public static void main(String[] rags) throws IOException {
 		// 缓冲输入文件，并打印
+//        File file = new File("");
+//        System.out.println(System.getProperty("user.dir"));
+//        System.out.println(file.getAbsolutePath());
 		System.out.println(read(
 				"src" + File.separator +
+                "main" + File.separator +
+                "java" + File.separator +
 				"org" + File.separator +
 				"javacore" + File.separator +
 				"io" + File.separator +

@@ -8,9 +8,9 @@ import java.util.Arrays;
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -26,13 +26,14 @@ import java.util.Arrays;
 public class DirListT {
 	public static void main(String[] args) {
 		// 获取当前目录
+        // 在idea里面执行获取的目录是项目的根目录，待测试
 		File path = new File(".");// .表示当前目录
 		// 文件路径名数组
 		String list[] = path.list();
-		
+
 		// 对String文件名进行排序
 		Arrays.sort(list,String.CASE_INSENSITIVE_ORDER);
-		
+
 		// 打印
 		for(String dirItem : list)
 			System.out.println(dirItem);
