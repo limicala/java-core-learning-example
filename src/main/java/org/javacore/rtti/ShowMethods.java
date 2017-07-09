@@ -22,6 +22,9 @@ import java.lang.reflect.Method;
  * @author Jeff Lee
  * @since 2015-11-2 16:43:41
  * 	获取Class方法案例
+ * 	toGenericString是Constructor,Method,Field这三个类专有的方法，
+ * 	如Constructor类，给出的是对应的构造函数的细节，
+ * 	比如修饰符，构造函数名和参数列表等
  */
 public class ShowMethods {
     public static void main(String[] args) {

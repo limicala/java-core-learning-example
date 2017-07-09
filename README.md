@@ -20,12 +20,12 @@ Java核心技术学习代码兼测试案例<br>
 - [x]	├── [org.javacore.collection.util](src/main/java/org/javacore/collection/util)) // Java集合工具类(**)
 - [x]	├── [org.javacore.initAndCleanup](src/main/java/org/javacore/initAndCleanup))	  // Java初始化及清理(*)
 - [x]	├── [org.javacore.proxy](src/main/java/org/javacore/proxy)		  // Java 代理
-- [ ]	├── [org.javacore.io](src/main/java/org/javacore/io)			      // Java IO
-- [ ]	├── [org.javacore.io.byteoper](src/main/java/org/javacore/io/byteoper)	  // Java IO 字节操作
-- [ ]	├── [org.javacore.io.zip](src/main/java/org/javacore/io/zip)			  // Java IO ZIP压缩解压
+- [x]	├── [org.javacore.io](src/main/java/org/javacore/io)			      // Java IO
+- [x]	├── [org.javacore.io.byteoper](src/main/java/org/javacore/io/byteoper)	  // Java IO 字节操作
+- [x]	├── [org.javacore.io.zip](src/main/java/org/javacore/io/zip)			  // Java IO ZIP压缩解压
 - [ ]	├── [org.javacore.nio](src/main/java/org/javacore/nio)			  // Java NIO
-- [ ]	├── [org.javacore.reflection](src/main/java/org/javacore/reflection)	      // Java 反射
-- [ ]	├── [org.javacore.rtti](src/main/java/org/javacore/rtti)			  // Java RTTI
+- [x]	├── [org.javacore.reflection](src/main/java/org/javacore/reflection)	      // Java 反射
+- [x]	├── [org.javacore.rtti](src/main/java/org/javacore/rtti)			  // Java RTTI
 - [ ]	├── [org.javacore.thread](src/main/java/org/javacore/thread)		      // Java 线程
 
 =================实战JAVA 8=================

@@ -22,8 +22,15 @@ import java.lang.reflect.Modifier;
  */
 
 /**
- * @author Jeff Lee
+ * @author Jeff
  * @since 2015-11-9 10:45:19
+ * getFields()：获得某个类的所有的公共（public）的字段，包括父类中的字段。
+ * getDeclaredFields()：获得某个类的所有声明的字段，
+ * 即包括public、private和proteced，但是不包括父类的申明字段。
+ * 同样类似的还有
+ * getConstructors()和getDeclaredConstructors()、
+ * getMethods()和getDeclaredMethods()，
+ * 这两者分别表示获取某个类的方法、构造函数。
  * 反射对象构造函数、方法及字段
  */
 public class ReflectionTest {
@@ -31,7 +38,8 @@ public class ReflectionTest {
     public static void main(String[] args) {
         Class cl = null;
         try {
-            cl = Class.forName("org.javacore.reflection.ReflectionTest");
+//            cl = Class.forName("org.javacore.reflection.ReflectionTest");
+            cl = Class.forName("org.javacore.reflection.User");
             System.out.println("打印析构函数：");
             printConstructors(cl);
             System.out.println("打印方法：");
@@ -51,8 +59,9 @@ public class ReflectionTest {
         // 返回类所有的析构方法
         Constructor[] constructors = cl.getDeclaredConstructors();
         for (Constructor c : constructors){
-            // 返回析构方法名称
+            // 返回析构方法名称，即是类名 org.javacore.reflection.User
             String name = c.getName();
+            System.out.print("name " + name);
             System.out.print("   ");
             // 获取Java语言的修饰符
             // 修饰符由 Java 虚拟机的 public、protected、private、
@@ -83,8 +92,9 @@ public class ReflectionTest {
         for (Method m : methods) {
             // 获取方法返回对象
             Class retType = m.getReturnType();
+            // 获取方法名
             String name = m.getName();
-
+            System.out.print("name " + name);
             System.out.print("   ");
             // 获取Java语言的修饰符
             // 修饰符由 Java 虚拟机的 public、protected、private、
@@ -105,9 +115,10 @@ public class ReflectionTest {
         }
     }
 
-    public static void printFields(Class clazz){
+    public static void printFields(Class cl){
         // 获取字段Field对象数组
-        Field[] fields = clazz.getFields();
+        Field[] fields = cl.getFields();
+//        Field[] fields = cl.getDeclaredFields();
         for (Field field : fields){
             // 获取字段声明类型对象
             Class type = field.getType();
@@ -121,7 +132,7 @@ public class ReflectionTest {
             String modifiers = Modifier.toString(field.getModifiers());
             if (modifiers.length() > 0)
                 System.out.print(modifiers + " ");
-            System.out.print(type.getName() + " " + name);
+            System.out.println(type.getName() + " " + name);
         }
     }
 }
